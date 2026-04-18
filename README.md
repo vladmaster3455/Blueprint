@@ -52,23 +52,4 @@ python benchmark.py \
   --models yolo rtdetr
 ```
 
-## Générer les livrables
-#nb :Si vous voulez aussi avoir document pdf et powerpoint de mon analyse vus pouvez taper ces commandes:
-
-```bash
-python generate_report.py \
-  --summary-csv outputs/bench_test/summary.csv \
-  --charts-dir outputs/bench_test/charts \
-  --output outputs/bench_test/benchmark_report.pdf \
-  --dataset-name "CryoVirusDB / EMPIAR 11060"
-
-python generate_pptx.py \
-  --summary-csv outputs/bench_test/summary.csv \
-  --charts-dir outputs/bench_test/charts \
-  --output outputs/bench_test/benchmark_presentation.pptx \
-  --dataset-name "CryoVirusDB / EMPIAR 11060"
-```
-
-
-
 
